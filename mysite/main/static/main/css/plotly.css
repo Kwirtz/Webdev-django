@@ -1,0 +1,12 @@
+.plotly-box{
+    width: 1250px;
+    height: 1200px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-25%);
+    box-sizing: border-box;
+    padding: 30px 30px;
+}

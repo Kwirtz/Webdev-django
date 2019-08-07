@@ -1,0 +1,12 @@
+django==2.1.4
+plotly==3.8.1
+tensorflow==2.0.0-beta1
+matplotlib==3.0.3
+tensorflow_datasets==1.0.1
+channels==2.2.0
+flask==1.0.2
+dash==0.42.0
+pandas==0.24.2
+tweepy==3.7.0
+vaderSentiment==3.2.1
+Unidecode==1.1.1 

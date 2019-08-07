@@ -1,0 +1,16 @@
+{% extends 'main/header.html' %}
+
+{% block content %}
+<div class="dcgan-box">
+ <p style="text-align:center; color:white"><b>Generate them pokemonz.</b></p>
+<form method="POST" action="/dcgan/generate">
+{% csrf_token %}
+    <font color = "white">Number to generate:</font> <input type="number" name="textfield" style="color:white" value = "4">
+    <font color = "white">Color of background:</font> <select name="background">
+     	<option value="white">White</option>
+     	<option value="black">Black</option>
+     </select> 
+    <p><button style="background-color:orange; color:black; font-weight:bold" class="btn btn-outline-info" type="submit">Generate pokemon</button></p>
+</form>
+</div>
+{% endblock %} 

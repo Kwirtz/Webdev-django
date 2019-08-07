@@ -1,0 +1,50 @@
+{% extends 'main/header.html' %}
+
+{% block content %}
+<div class="chatbot-box">
+    {% load static %}
+    <div class="chatbot-textarea" style="overflow-y:auto; background-image: url({% static 'main/css/textarea.png' %})" contenteditable="true" id="chat-log"></div>
+    <input id="chat-message-input" style="color:white"type="text" size="100"/><br/>
+    <input id="chat-message-submit" type="button" value="Send"/>
+</div>
+{% endblock %}
+
+{% block js %}
+<script>
+    var roomName = {{ room_name_json }};
+
+    var chatSocket = new WebSocket(
+        'ws://' + window.location.host +
+        '/ws/chatbot/' + roomName + '/');
+
+    chatSocket.onmessage = function(e) {
+        var data = JSON.parse(e.data);
+        var message = data['message'];
+        var source = data['source'];
+        var chat = document.querySelector('#chat-log')
+        if(source=="client"){chat.innerHTML += ("<div class='client-message'>{% load static %}<img src='{% static 'main/css/avatar.png' %}' class='client-avatar'>" +message+  "</div></div>");}
+        else if(source=="bot"){chat.innerHTML += ("<div class='bot-message'>{% load static %}<img src='{% static 'main/css/ia.png' %}' class='bot-avatar'>" +message+  "</div></div>");}
+    };
+
+    chatSocket.onclose = function(e) {
+        console.error('Chat socket closed unexpectedly');
+    };
+
+    document.querySelector('#chat-message-input').focus();
+    document.querySelector('#chat-message-input').onkeyup = function(e) {
+        if (e.keyCode === 13) {  // enter, return
+            document.querySelector('#chat-message-submit').click();
+        }
+    };
+
+    document.querySelector('#chat-message-submit').onclick = function(e) {
+        var messageInputDom = document.querySelector('#chat-message-input');
+        var message = messageInputDom.value;
+        chatSocket.send(JSON.stringify({
+            'message': message
+        }));
+
+        messageInputDom.value = '';
+    };
+</script>
+{% endblock js %}

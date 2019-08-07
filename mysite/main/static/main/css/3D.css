@@ -1,0 +1,17 @@
+.anim {
+  width: 100px;
+  height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+    display: block;
+    margin: 10% auto;
+    background-image: url("link.png");
+    animation: sprite 25s steps(462) infinite;
+}
+
+ 
+@keyframes sprite {
+   100% { background-position: -46200px; }
+}
