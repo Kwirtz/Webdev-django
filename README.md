@@ -18,16 +18,16 @@ pip install -r requirements.txt
 
 <h2>Overall</h2>
 
-![Webdev-django demo](demogif/overall.gif)
+![Webdev-django demo overall](demogif/overall.gif)
 
 <h2>Dashboard (sentiment analysis)</h2>
 
-![Webdev-django demo]((demogif/dashboard.gif))
+![Webdev-django demo dashboard]((demogif/dashboard.gif))
 
 <h2>GAN</h2>
 
-![Webdev-django demo](demogif/gan.gif)
+![Webdev-django demo gan](demogif/gan.gif)
 
 <h2>Chatbot</h2>
 
-![Webdev-django demo](demogif/chatbot.gif)
+![Webdev-django demo chatbot](demogif/chatbot.gif)
