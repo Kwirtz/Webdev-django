@@ -18,7 +18,7 @@ pip install -r requirements.txt
 
 <h2>Overall</h2>
 
-![Webdev-django demo overall](demogif/overall.gif)
+<img src="https://raw.githubusercontent.com/Kwirtz/Webdev-django/master/demogif/overall.gif" width="40" height="40" />
 
 <h2>Dashboard (sentiment analysis)</h2>
 
