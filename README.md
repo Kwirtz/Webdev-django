@@ -18,7 +18,7 @@
 pip install -r requirements.txt
 ```
 
-<p>You will also need tinymce</p>
+<p>Install tinymce</p>
 
 ```
 python -m pip install django-tinymce4-lite
@@ -43,16 +43,16 @@ python manage.py runserver
 
 <h2>Overall</h2>
 
-<p>The bone of the website. Mainly created by following the tutorial of Sentdex(see on top of the README). I might use this website in the future to do tutorials in machine learning.</p>
+<p>The bone of the website. Mainly created by following the tutorial of Sentdex(see on top of the README). I might use this website in the future to do tutorials in machine learning hence the tutorial stuff.</p>
 <img src="https://raw.githubusercontent.com/Kwirtz/Webdev-django/master/demogif/overall.gif" width="800" height="400" />
 
 <h2>Dashboard (sentiment analysis)</h2>
 <p>Sentiment analysis on e-sport games. For the moment the number of game is limited (if you want to add games you'll need to add some things in mysite/dashboard/Tweets.py and mysite/dashboard/dashapp.py). <br>
-I only use the vaderSentiment module provided in python but it is not the best solution since I use some french data (e.g sentiment is all wrong). I intend to move on to BERT at some point </p>
+I only use the vaderSentiment module provided in python but it is not the best solution since I use some french data (e.g sentiment is all wrong). I intend to move on to BERT at some point. </p>
 <img src="https://raw.githubusercontent.com/Kwirtz/Webdev-django/master/demogif/dashboard.gif" width="800" height="400" />
 
 <h2>GAN</h2>
-<p>Basic implementation of a DCGAN on pokemons. I will soon release the repository for the gan with additionnal ressources on how to implement it in Keras. I intend to improve the model by using ProGAN or styleGAN</p>
+<p>Basic implementation of a DCGAN on pokemons. I will soon release the repository for the gan with additionnal ressources on how to implement it in Keras. I intend to improve the model by using ProGAN or styleGAN.</p>
 <img src="https://raw.githubusercontent.com/Kwirtz/Webdev-django/master/demogif/gan.gif" width="800" height="400" />
 
 <h2>Chatbot</h2>
