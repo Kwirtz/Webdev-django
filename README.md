@@ -22,7 +22,7 @@ pip install -r requirements.txt
 
 <h2>Dashboard (sentiment analysis)</h2>
 
-![Alt Text]((demogif/dashboard.gif))
+![Webdev-django demo]((demogif/dashboard.gif))
 
 <h2>GAN</h2>
 
