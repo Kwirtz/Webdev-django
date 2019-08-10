@@ -16,8 +16,6 @@ Once installed run it before running the website.</p>
 pip install -r requirements.txt
 ```
 
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
-
 <h2>Overall</h2>
 
 ![Webdev-django demo](demogif/overall.gif)
