@@ -11,10 +11,10 @@ import os
 analyzer = SentimentIntensityAnalyzer()
 
 #consumer key, consumer secret, access token, access secret.
-ckey="z8g5hLznKypiCtwuc7gNU6dbI"
-csecret="g22jqYQm5YTE5qwTHX8muVZEjn1ab85lwkWWM1xwhLurnDEJeQ"
-atoken="2862380889-t0QJi2qmle9g2PqmpH6QZNmXbMrUQMXlYOlASrI"
-asecret="Ln4w0XebY01DYKnE8jLeBpPVSt4GJXYlnrCuFNFEzyOjA"
+ckey=""
+csecret=""
+atoken=""
+asecret=""
 
 path = os.getcwd()
 parent = os.path.dirname(path)
