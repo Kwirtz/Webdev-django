@@ -17,7 +17,11 @@ pip install -r requirements.txt
 ```
 
 
-
-<h2>GAN</h2>
-<h2>Chatbot</h2>
+<h2>Overall</h2>
+![Overall - Animated gif demo](demo/overall.gif)
 <h2>Dashboard (sentiment analysis)<h2>
+![Dashboard - Animated gif demo](demo/dashboard.gif)
+<h2>GAN</h2>
+![Gan - Animated gif demo](demo/gan.gif)
+<h2>Chatbot</h2>
+![Chatbot - Animated gif demo](demo/chatbot.gif)
