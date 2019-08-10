@@ -18,16 +18,16 @@ pip install -r requirements.txt
 
 <h2>Overall</h2>
 
-<img src="https://raw.githubusercontent.com/Kwirtz/Webdev-django/master/demogif/overall.gif" width="600" height="287" />
+<img src="https://raw.githubusercontent.com/Kwirtz/Webdev-django/master/demogif/overall.gif" width="700" height="400" />
 
 <h2>Dashboard (sentiment analysis)</h2>
 
-<img src="https://raw.githubusercontent.com/Kwirtz/Webdev-django/master/demogif/dashboard.gif" width="600" height="287" />
+<img src="https://raw.githubusercontent.com/Kwirtz/Webdev-django/master/demogif/dashboard.gif" width="700" height="400" />
 
 <h2>GAN</h2>
 
-<img src="https://raw.githubusercontent.com/Kwirtz/Webdev-django/master/demogif/gan.gif" width="600" height="287" />
+<img src="https://raw.githubusercontent.com/Kwirtz/Webdev-django/master/demogif/gan.gif" width="700" height="400" />
 
 <h2>Chatbot</h2>
 
-<img src="https://raw.githubusercontent.com/Kwirtz/Webdev-django/master/demogif/chatbot.gif" width="600" height="287" />
+<img src="https://raw.githubusercontent.com/Kwirtz/Webdev-django/master/demogif/chatbot.gif" width="700" height="400" />
