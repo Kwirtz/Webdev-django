@@ -17,11 +17,19 @@ pip install -r requirements.txt
 ```
 
 ![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+
 <h2>Overall</h2>
+
 ![Webdev-django demo](demogif/overall.gif)
+
 <h2>Dashboard (sentiment analysis)</h2>
-![Alt Text](https://github.com/Kwirtz/Webdev-django/blob/master/demogif/dashboard.gif)
+
+![Alt Text]((demogif/dashboard.gif))
+
 <h2>GAN</h2>
-![Webdev-django demo](https://raw.githubusercontent.com/Kwirtz/Webdev-django/master/demogif/gan.gif)
+
+![Webdev-django demo](demogif/gan.gif)
+
 <h2>Chatbot</h2>
+
 ![Webdev-django demo](demogif/chatbot.gif)
