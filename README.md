@@ -18,15 +18,15 @@ pip install -r requirements.txt
 
 <h2>Overall</h2>
 
-<img src="https://raw.githubusercontent.com/Kwirtz/Webdev-django/master/demogif/overall.gif" width="40" height="40" />
+<img src="https://raw.githubusercontent.com/Kwirtz/Webdev-django/master/demogif/overall.gif" width="400" height="191" />
 
 <h2>Dashboard (sentiment analysis)</h2>
 
-![Webdev-django demo dashboard]((demogif/dashboard.gif))
+<img src="https://raw.githubusercontent.com/Kwirtz/Webdev-django/master/demogif/dashboard.gif" width="400" height="191" />
 
 <h2>GAN</h2>
 
-![Webdev-django demo gan](demogif/gan.gif)
+<img src="https://raw.githubusercontent.com/Kwirtz/Webdev-django/master/demogif/gan.gif" width="400" height="191" />
 
 <h2>Chatbot</h2>
 
