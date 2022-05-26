@@ -1,6 +1,6 @@
 django==2.2.8
 plotly==3.8.1
-tensorflow==2.0.0-beta1
+tensorflow==2.7.2
 matplotlib==3.0.3
 tensorflow_datasets==1.0.1
 channels==2.2.0
